@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background-color: rgb(33, 43, 39);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left {
+    width: 60%;
+}
+
+
+.links {
+    width: 50%;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+button{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: teal;
+    box-shadow: 10px 5px 5px black;
+    border: 0px;
+    border-radius: 15px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
